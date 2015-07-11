@@ -81,10 +81,10 @@ tweets.txt:
 	.
 	Contents of last tweet  
 
-Your program should output the results of this first feature to a text file named `ft1.txt` in a directory named `tweet_output`.  In order for your submission to be checked, it needs to output the results of your first feature in order, according to the [ASCII Code](http://www.ascii-code.com), as shown in the above example.  For simplicity, treat all punctuation as part of the word itself, so 'business.' would be counted as a different word than 'business' without the period.
+My program outputs the results of this first feature to a text file named `ft1.txt` in a directory named `tweet_output`.  My submission outputs the results of my first feature in order, according to the [ASCII Code](http://www.ascii-code.com), as shown in the above example.  For simplicity, treat all punctuation as part of the word itself, so 'business.' would be counted as a different word than 'business' without the period.
 
-Ideally, the second feature that updates the median as each tweet arrives would be connected to the Twitter streaming API and would add new tweets to the end of 'tweets.txt'.  However, connecting to the this API requires more system specific "dev ops" work, which isn't the primary focus for data engineers.  Instead, you should simply assume that each new line of the text file corresponds to a new tweet and design your program to handle a text file with a large number of tweets.  Your program should output the results of this second feature to a text file named `ft2.txt` in the `tweet_output` directory.
+Assume that each new line of the text file corresponds to a new tweet and design your program to handle a text file with a large number of tweets.  My program outputs the results of this second feature to a text file named `ft2.txt` in the `tweet_output` directory.
 
-In addition to the source code, the top-most directory of your repo must include the `tweet_input` and `tweet_output` directories, and a shell script named `run.sh` that compiles and runs the program(s) that implement these features.  
-If your solution requires additional libraries, environments, or dependencies, you must specify these in your README documentation.  
-See the figure below for the required structure of the top-most directory in your repo, or simply clone this repo.
+## Libraries
+
+My code requires boost_1_58_0 to run
